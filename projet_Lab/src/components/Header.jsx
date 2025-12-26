@@ -10,7 +10,6 @@ const Header = () => {
   const { items } = useSelector((state) => state.cart)
   const { user } = useSelector((state) => state.auth)
 
-  const cartCount = items.reduce((total, item) => total + item.quantity, 0)
 
   const handleSearch = (e) => {
     e.preventDefault()
