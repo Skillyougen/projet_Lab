@@ -1,14 +1,15 @@
-
-import './App.css'
-import Header from './components/header'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Login from "./pages/login"
+import Register from "./pages/Register"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Header />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

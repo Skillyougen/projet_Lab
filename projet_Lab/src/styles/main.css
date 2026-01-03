@@ -1,0 +1,15 @@
+:root {
+  --color-dominant: #272727;  /* Raisin Black */
+  --color-secondary: #D4AA7D; /* Buff */
+  --color-accent: #EFD09E;    /* Sunset */
+
+  --text-light: #ffffff;
+  --text-dark: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
