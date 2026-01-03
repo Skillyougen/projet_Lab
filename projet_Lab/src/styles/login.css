@@ -16,24 +16,31 @@
 
 /* Page entière */
 .login-page {
-  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background: linear-gradient(
     135deg,
     var(--color-dominant),
     var(--color-secondary)
   );
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Carte de connexion */
 .login-card {
+  width: 100%;
+  max-width: 380px;
+
   background-color: var(--color-accent);
   padding: 30px;
-  width: 350px;
+
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
   display: flex;
   flex-direction: column;
   gap: 15px;
