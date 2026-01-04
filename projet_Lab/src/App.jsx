@@ -1,13 +1,13 @@
 
 import './App.css'
-import Header from './component/Header'
+import Header from './components/Header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <header/>
+      <Header/>
     </>
   )
 }
